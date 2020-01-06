@@ -39,6 +39,7 @@ bool adaugaLaArboreElement(arbore& a, unsigned char el) {
     else
         return adaugaLaArboreElement(a->dr, el);
 }
+  int v;
 void derivare(arbore ai, arbore& ad)
 {
     arbore a,b,c,d,e,f,g;
